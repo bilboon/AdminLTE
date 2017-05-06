@@ -1,0 +1,33 @@
+{% extends '::base.html.twig' %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% include "UmbrellaCoreBundle:Include:scripts.html.twig" %}
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {% include "UmbrellaCoreBundle:Include:stylesheets.html.twig" %}
+{% endblock %}
+
+{% block body %}
+    <body class="skin-blue sidebar-mini">
+        <div class="wrapper">
+
+            <!-- headbar -->
+            {% block headbar %}
+            {% endblock %}
+
+            <!-- sidebar -->
+            {% block sidebar %}
+            {% endblock %}
+
+            <!-- content -->
+            <div class="content-wrapper">
+                {% block content %}
+                {% endblock %}
+            </div>
+
+        </div>
+    </body>
+{% endblock %}
