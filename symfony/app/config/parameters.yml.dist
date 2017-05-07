@@ -18,4 +18,4 @@ parameters:
     # A secret key that's used to generate certain security-related tokens
     secret: ThisTokenIsNotSoSecretChangeIt
 
-    sitemap: AdminLTE/BOBundle/Resources/config/sitemap.yml
+    sitemap: AdminLTE/AdminBundle/Resources/config/sitemap.yml

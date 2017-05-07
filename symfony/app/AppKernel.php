@@ -17,9 +17,9 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
 
-            new \Umbrella\CoreBundle\UmbrellaCoreBundle(),
-            
-            new AdminLTE\BOBundle\AdminLTEBOBundle(),
+            new \Umbrella\AdminBundle\UmbrellaAdminBundle(),
+
+            new AdminLTE\AdminBundle\AdminLTEAdminBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

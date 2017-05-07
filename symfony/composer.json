@@ -14,7 +14,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:acantepie/CoreBundle.git"
+            "url": "git@github.com:acantepie/AdminBundle.git"
         }
     ],
     "require": {
@@ -32,7 +32,7 @@
         "symfony/swiftmailer-bundle": "^2.3.10",
         "symfony/symfony": "3.2.*",
         "twig/twig": "^1.0||^2.0",
-        "umbrella/corebundle": "dev-master"
+        "umbrella/adminbundle": "dev-master"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

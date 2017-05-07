@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "60c9a2ba46e3598bb5f134976742f9f1",
+    "content-hash": "02ebec9118c54cef69bfe49210e35303",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -2246,17 +2246,17 @@
             "time": "2017-04-20T17:39:48+00:00"
         },
         {
-            "name": "umbrella/corebundle",
+            "name": "umbrella/adminbundle",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/acantepie/CoreBundle.git",
-                "reference": "84f462d9b5cbd465ddcece7f07043ac677afac9a"
+                "url": "https://github.com/acantepie/AdminBundle.git",
+                "reference": "c6f47246daf52b9174d220da3913f6818cf2c989"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acantepie/CoreBundle/zipball/84f462d9b5cbd465ddcece7f07043ac677afac9a",
-                "reference": "84f462d9b5cbd465ddcece7f07043ac677afac9a",
+                "url": "https://api.github.com/repos/acantepie/AdminBundle/zipball/c6f47246daf52b9174d220da3913f6818cf2c989",
+                "reference": "c6f47246daf52b9174d220da3913f6818cf2c989",
                 "shasum": ""
             },
             "require": {
@@ -2265,7 +2265,7 @@
             "type": "symfony-bundle",
             "autoload": {
                 "psr-4": {
-                    "Umbrella\\CoreBundle\\": ""
+                    "Umbrella\\AdminBundle\\": ""
                 }
             },
             "scripts": {
@@ -2280,12 +2280,12 @@
                     "name": "Adrien Cantepie"
                 }
             ],
-            "description": "Umbrella CoreBundle",
+            "description": "Umbrella AdminBundle",
             "support": {
-                "source": "https://github.com/acantepie/CoreBundle/tree/master",
-                "issues": "https://github.com/acantepie/CoreBundle/issues"
+                "source": "https://github.com/acantepie/AdminBundle/tree/master",
+                "issues": "https://github.com/acantepie/AdminBundle/issues"
             },
-            "time": "2017-05-05 22:07:36"
+            "time": "2017-05-07 16:36:09"
         }
     ],
     "packages-dev": [
@@ -2409,7 +2409,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "umbrella/corebundle": 20
+        "umbrella/adminbundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

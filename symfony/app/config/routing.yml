@@ -1,4 +1,4 @@
 admin_ltebo:
-    resource: "@AdminLTEBOBundle/Resources/config/routing.yml"
+    resource: "@AdminLTEAdminBundle/Resources/config/routing.yml"
     prefix:   /
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace AdminLTE\BOBundle\Controller;
+namespace AdminLTE\AdminBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
-use Umbrella\CoreBundle\Controller\Lib\BaseController;
+use Umbrella\AdminBundle\Controller\Lib\BaseController;
 
 /**
  * Class DefaultController
- * @package AdminLTE\BOBundle\Controller
+ * @package AdminLTE\AdminBundle\Controller
  */
 class DefaultController extends BaseController
 {
@@ -24,7 +24,7 @@ class DefaultController extends BaseController
      */
     public function formGeneralAction()
     {
-        return $this->render('AdminLTEBOBundle:Form:general.html.twig');
+        return $this->render('AdminLTEAdminBundle:Form:general.html.twig');
     }
 
     /**
@@ -32,7 +32,7 @@ class DefaultController extends BaseController
      */
     public function formAdvancedAction()
     {
-        return $this->render('AdminLTEBOBundle:Form:advanced.html.twig');
+        return $this->render('AdminLTEAdminBundle:Form:advanced.html.twig');
     }
 
     /**
@@ -40,6 +40,6 @@ class DefaultController extends BaseController
      */
     public function formEditorsAction()
     {
-        return $this->render('AdminLTEBOBundle:Form:editors.html.twig');
+        return $this->render('AdminLTEAdminBundle:Form:editors.html.twig');
     }
 }
