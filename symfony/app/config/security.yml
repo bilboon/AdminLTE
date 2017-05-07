@@ -42,4 +42,6 @@ security:
                   login_path: umbrella_admin.login
                   check_path: umbrella_admin.login
                   default_target_path: admin_lte.home
-              logout: true
+              logout:
+                  path: umbrella_admin.logout
+                  target: /admin
