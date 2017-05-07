@@ -1,4 +1,7 @@
-admin_ltebo:
-    resource: "@AdminLTEAdminBundle/Resources/config/routing.yml"
-    prefix:   /
+umbrella_admin:
+    resource: "@UmbrellaAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin
 
+admin_lte_admin:
+    resource: "@AdminLTEAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin
