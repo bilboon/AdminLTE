@@ -1,15 +1,15 @@
-admin_ltebo_homepage:
+admin_lte.home:
     path:     /
     defaults: { _controller: AdminLTEAdminBundle:Default:home }
 
-admin_lte_form_general:
+admin_lte.form_general:
     path:     /form/general
     defaults: { _controller: AdminLTEAdminBundle:Default:formGeneral }
 
-admin_lte_form_advanced:
+admin_lte.form_advanced:
     path:     /form/advanced
     defaults: { _controller: AdminLTEAdminBundle:Default:formAdvanced }
 
-admin_lte_form_editors:
+admin_lte.form_editors:
     path:     /form/editors
     defaults: { _controller: AdminLTEAdminBundle:Default:formEditors }

@@ -16,7 +16,7 @@ class DefaultController extends BaseController
      */
     public function homeAction()
     {
-        return $this->redirectToRoute('admin_lte_form_general');
+        return $this->redirectToRoute('admin_lte.form_general');
     }
 
     /**
