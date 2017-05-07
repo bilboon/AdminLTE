@@ -1,72 +1,72 @@
 header_main:
-    header: "Main navigation"
+    header: Main navigation
     children:
         dashboard:
-            label: "Dashboard"
-            icon: "fa fa-dashboard"
+            label: Dashboard
+            icon: fa fa-dashboard
             children:
                 dashboard1:
-                    label: "Dashboard v1"
+                    label: Dashboard v1
                 dashboard2:
-                    label: "Dashboard v2"
+                    label: Dashboard v2
 
         layout_options:
-            label: "Layout Options"
-            icon: "fa fa-files-o"
+            label: Layout Options
+            icon: fa fa-files-o
             children:
                 top_nav:
-                    label: "Top navigation"
+                    label: Top navigation
                 boxed:
-                    label: "Boxed"
+                    label: Boxed
                 fixed:
-                    label: "Fixed"
+                    label: Fixed
                 collapsed:
-                    label: "Collapsed Sidebar"
+                    label: Collapsed Sidebar
 
         forms:
-            label: "Forms"
-            icon: "fa fa-edit"
+            label: Forms
+            icon: fa fa-edit
             children:
                 form_general:
-                    label: "General Elements"
+                    label: General Elements
                     action: admin_lte_form_general
                 form_advanced:
-                    label: "Advanced Elements"
+                    label: Advanced Elements
                     action: admin_lte_form_advanced
                 form_editors:
-                    label: "Editors"
+                    label: Editors
                     action: admin_lte_form_editors
 
         multi_level:
-            label: "Multilevel"
-            icon: "fa fa-share"
+            label: Multilevel
+            icon: fa fa-share
             children:
                 one:
-                    label: "Level One"
+                    label: Level One
                 one_:
-                    label: "Level One"
+                    label: Level One
                     children:
                         two:
-                            label: "Level Two"
+                            label: Level Two
                         two_:
-                            label: "Level two"
+                            label: Level two
                             children:
                                 three:
-                                    label: "Level three"
+                                    label: Level three
                                 three_:
-                                    label: "Level three"
+                                    label: Level three
                 one__:
-                    label: "Level One"
+                    label: Level One
 
 header_label:
-    header: "Labels"
+    header: Labels
     children:
         important:
-            label: "Important"
-            icon: "fa fa-circle-o text-red"
+            label: Important
+            icon: fa fa-circle-o text-red
         warning:
-            label: "Warning"
-            icon: "fa fa-circle-o text-yellow"
+            label: Warning
+            icon: fa fa-circle-o text-yellow
         information:
-            label: "Information"
-            icon: "fa fa-circle-o text-aqua"
+            label: Information
+            icon: fa fa-circle-o text-aqua
