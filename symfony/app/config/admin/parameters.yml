@@ -1,0 +1,6 @@
+parameters:
+    admin.name: AdminLTE
+    admin.html_name: <b>Admin</b>LTE
+    admin.html_shortname: <b>A</b>LT
+    admin.theme: skin-green
+    admin.sitemap: AdminLTE/AdminBundle/Resources/config/sitemap.yml
