@@ -2,14 +2,24 @@ admin_lte.home:
     path:     /
     defaults: { _controller: AdminLTEAdminBundle:Default:home }
 
+# Form
 admin_lte.form_general:
     path:     /form/general
-    defaults: { _controller: AdminLTEAdminBundle:Default:formGeneral }
+    defaults: { _controller: AdminLTEAdminBundle:Form:general }
 
 admin_lte.form_advanced:
     path:     /form/advanced
-    defaults: { _controller: AdminLTEAdminBundle:Default:formAdvanced }
+    defaults: { _controller: AdminLTEAdminBundle:Form:advanced }
 
 admin_lte.form_editors:
     path:     /form/editors
-    defaults: { _controller: AdminLTEAdminBundle:Default:formEditors }
+    defaults: { _controller: AdminLTEAdminBundle:Form:editors }
+
+# Table
+admin_lte.simple_table:
+    path:     /table/simple
+    defaults: { _controller: AdminLTEAdminBundle:Table:simple }
+
+admin_lte.data_table:
+    path:     /table/data
+    defaults: { _controller: AdminLTEAdminBundle:Table:data }

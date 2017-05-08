@@ -19,27 +19,4 @@ class DefaultController extends BaseController
         return $this->redirectToRoute('admin_lte.form_general');
     }
 
-    /**
-     * @return Response
-     */
-    public function formGeneralAction()
-    {
-        return $this->render('AdminLTEAdminBundle:Form:general.html.twig');
-    }
-
-    /**
-     * @return Response
-     */
-    public function formAdvancedAction()
-    {
-        return $this->render('AdminLTEAdminBundle:Form:advanced.html.twig');
-    }
-
-    /**
-     * @return Response
-     */
-    public function formEditorsAction()
-    {
-        return $this->render('AdminLTEAdminBundle:Form:editors.html.twig');
-    }
 }

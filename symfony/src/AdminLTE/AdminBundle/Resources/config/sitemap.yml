@@ -1,5 +1,5 @@
 header_main:
-    header: Main navigation
+    label: Main navigation
     children:
         dashboard:
             label: Dashboard
@@ -37,6 +37,17 @@ header_main:
                     label: Editors
                     action: admin_lte.form_editors
 
+        table:
+            label: Tables
+            icon: fa fa-table
+            children:
+                simple_table:
+                    label: Simple tables
+                    action: admin_lte.simple_table
+                data_table:
+                    label: Data tables
+                    action: admin_lte.data_table
+
         multi_level:
             label: Multilevel
             icon: fa fa-share
@@ -59,7 +70,7 @@ header_main:
                     label: Level One
 
 header_label:
-    header: Labels
+    label: Labels
     children:
         important:
             label: Important
