@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "02ebec9118c54cef69bfe49210e35303",
+    "content-hash": "09c481307b13702cee2d922afbd4390a",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -2286,6 +2286,48 @@
                 "issues": "https://github.com/acantepie/AdminBundle/issues"
             },
             "time": "2017-05-07 16:36:09"
+        },
+        {
+            "name": "umbrella/userbundle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acantepie/UserBundle.git",
+                "reference": "2090531f1e2895e9c22f68a191c7f722cca2edba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acantepie/UserBundle/zipball/2090531f1e2895e9c22f68a191c7f722cca2edba",
+                "reference": "2090531f1e2895e9c22f68a191c7f722cca2edba",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/symfony": ">=2.8"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Umbrella\\UserBundle\\": ""
+                }
+            },
+            "scripts": {
+                "post-install-cmd": [],
+                "post-update-cmd": []
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Adrien Cantepie"
+                }
+            ],
+            "description": "Umbrella UserBundle",
+            "support": {
+                "source": "https://github.com/acantepie/UserBundle/tree/master",
+                "issues": "https://github.com/acantepie/UserBundle/issues"
+            },
+            "time": "2017-05-08 17:05:52"
         }
     ],
     "packages-dev": [
@@ -2409,7 +2451,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "umbrella/adminbundle": 20
+        "umbrella/adminbundle": 20,
+        "umbrella/userbundle": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

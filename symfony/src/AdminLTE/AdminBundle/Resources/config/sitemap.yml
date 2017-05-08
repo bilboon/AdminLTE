@@ -70,14 +70,9 @@ header_main:
                     label: Level One
 
 header_label:
-    label: Labels
+    label: Admin
     children:
-        important:
-            label: Important
-            icon: fa fa-circle-o text-red
-        warning:
-            label: Warning
-            icon: fa fa-circle-o text-yellow
-        information:
-            label: Information
-            icon: fa fa-circle-o text-aqua
+        user:
+            label: Users
+            icon: fa fa-user text-blue
+            action: admin_lte.index_user

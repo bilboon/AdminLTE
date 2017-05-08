@@ -21,7 +21,7 @@ security:
                 users:
                     root: { password: root, roles: [ 'ROLE_GODLIKE_ADMIN' ] }
         in_db:
-            entity: { class: UmbrellaAdminBundle:User, property: username }
+            entity: { class: UmbrellaUserBundle:User, property: username }
 
     access_control:
         - { path: ^/admin/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }

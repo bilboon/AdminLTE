@@ -23,3 +23,8 @@ admin_lte.simple_table:
 admin_lte.data_table:
     path:     /table/data
     defaults: { _controller: AdminLTEAdminBundle:Table:data }
+
+# User
+admin_lte.index_user:
+    path:     /user
+    defaults: { _controller: AdminLTEAdminBundle:User:index }

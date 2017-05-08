@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
 
             new \Umbrella\AdminBundle\UmbrellaAdminBundle(),
+            new \Umbrella\UserBundle\UmbrellaUserBundle(),
 
             new AdminLTE\AdminBundle\AdminLTEAdminBundle(),
         ];

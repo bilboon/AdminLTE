@@ -8,6 +8,7 @@
 
 namespace AdminLTE\AdminBundle\Controller;
 
+use Symfony\Component\HttpFoundation\Response;
 use Umbrella\AdminBundle\Controller\Lib\BaseController;
 
 /**
@@ -16,10 +17,13 @@ use Umbrella\AdminBundle\Controller\Lib\BaseController;
  */
 class UserController extends BaseController
 {
-    
-    public function listAction()
+
+    /**
+     * @return Response
+     */
+    public function indexAction()
     {
-        
+        return $this->render('AdminLTEAdminBundle:User:index.html.twig');
     }
 
 }
