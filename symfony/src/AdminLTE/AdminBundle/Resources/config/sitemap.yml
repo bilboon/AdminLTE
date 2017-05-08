@@ -75,4 +75,4 @@ header_label:
         user:
             label: Users
             icon: fa fa-user text-blue
-            action: admin_lte.index_user
+            action: umbrella_user.index
