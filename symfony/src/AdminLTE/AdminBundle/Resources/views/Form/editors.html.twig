@@ -1,48 +1,35 @@
 {% extends "UmbrellaAdminBundle:Layout:layout.html.twig" %}
 
 {% block content %}
-    <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
-        <section class="content-header">
-            <h1>
-                Text Editors
-                <small>Advanced form element</small>
-            </h1>
-            {{ render_breadcrumbs() }}
-        </section>
-
-        <!-- Main content -->
-        <section class="content">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="box">
-                        <div class="box-header">
-                            <h3 class="box-title">Bootstrap WYSIHTML5
-                                <small>Simple and fast</small>
-                            </h3>
-                            <!-- tools box -->
-                            <div class="pull-right box-tools">
-                                <button type="button" class="btn btn-default btn-sm" data-widget="collapse" data-toggle="tooltip" title="Collapse">
-                                    <i class="fa fa-minus"></i></button>
-                                <button type="button" class="btn btn-default btn-sm" data-widget="remove" data-toggle="tooltip" title="Remove">
-                                    <i class="fa fa-times"></i></button>
-                            </div>
-                            <!-- /. tools -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title">Bootstrap WYSIHTML5
+                            <small>Simple and fast</small>
+                        </h3>
+                        <!-- tools box -->
+                        <div class="pull-right box-tools">
+                            <button type="button" class="btn btn-default btn-sm" data-widget="collapse" data-toggle="tooltip" title="Collapse">
+                                <i class="fa fa-minus"></i></button>
+                            <button type="button" class="btn btn-default btn-sm" data-widget="remove" data-toggle="tooltip" title="Remove">
+                                <i class="fa fa-times"></i></button>
                         </div>
-                        <!-- /.box-header -->
-                        <div class="box-body pad">
-                            <form class="js-umbrella-form">
-                                {{ form_rest(form) }}
-                            </form>
-                        </div>
+                        <!-- /. tools -->
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body pad">
+                        <form class="js-umbrella-form">
+                            {{ form_rest(form) }}
+                        </form>
                     </div>
                 </div>
-                <!-- /.col-->
             </div>
-            <!-- ./row -->
-        </section>
-        <!-- /.content -->
-    </div>
+            <!-- /.col-->
+        </div>
+        <!-- ./row -->
+    </section>
 {% endblock %}
 
 {% block js %}
