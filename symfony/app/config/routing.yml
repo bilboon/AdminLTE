@@ -6,6 +6,6 @@ umbrella_user:
     resource: "@UmbrellaUserBundle/Resources/config/routing.yml"
     prefix:   /admin
 
-admin_lte_admin:
+admin_:
     resource: "@AdminBundle/Resources/config/routing.yml"
     prefix:   /admin
