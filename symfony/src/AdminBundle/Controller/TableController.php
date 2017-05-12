@@ -6,14 +6,14 @@
  * Time: 11:57
  */
 
-namespace AdminLTE\AdminBundle\Controller;
+namespace AdminBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 use Umbrella\AdminBundle\Controller\Lib\BaseController;
 
 /**
  * Class TableController
- * @package AdminLTE\AdminBundle\Controller
+ * @package AdminBundle\Controller
  */
 class TableController extends BaseController
 {
@@ -22,7 +22,7 @@ class TableController extends BaseController
      */
     public function simpleAction()
     {
-        return $this->render('AdminLTEAdminBundle:Table:simple.html.twig');
+        return $this->render('AdminBundle:Table:simple.html.twig');
     }
 
     /**
@@ -30,6 +30,6 @@ class TableController extends BaseController
      */
     public function dataAction()
     {
-        return $this->render('AdminLTEAdminBundle:Table:data.html.twig');
+        return $this->render('AdminBundle:Table:data.html.twig');
     }
 }

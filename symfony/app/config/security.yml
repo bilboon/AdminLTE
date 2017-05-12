@@ -41,7 +41,7 @@ security:
                   provider: bo_provider
                   login_path: umbrella_admin.login
                   check_path: umbrella_admin.login
-                  default_target_path: admin_lte.home
+                  default_target_path: admin.home
               logout:
                   path: umbrella_admin.logout
                   target: /admin

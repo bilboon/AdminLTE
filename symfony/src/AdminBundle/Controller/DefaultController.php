@@ -1,13 +1,13 @@
 <?php
 
-namespace AdminLTE\AdminBundle\Controller;
+namespace AdminBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 use Umbrella\AdminBundle\Controller\Lib\BaseController;
 
 /**
  * Class DefaultController
- * @package AdminLTE\AdminBundle\Controller
+ * @package AdminBundle\Controller
  */
 class DefaultController extends BaseController
 {
@@ -16,7 +16,7 @@ class DefaultController extends BaseController
      */
     public function homeAction()
     {
-        return $this->redirectToRoute('admin_lte.form_general');
+        return $this->redirectToRoute('admin.form_general');
     }
 
 }

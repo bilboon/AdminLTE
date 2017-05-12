@@ -29,13 +29,13 @@ header_main:
             children:
                 form_general:
                     label: General Elements
-                    action: admin_lte.form_general
+                    action: admin.form_general
                 form_advanced:
                     label: Advanced Elements
-                    action: admin_lte.form_advanced
+                    action: admin.form_advanced
                 form_editors:
                     label: Editors
-                    action: admin_lte.form_editors
+                    action: admin.form_editors
 
         table:
             label: Tables
@@ -43,10 +43,10 @@ header_main:
             children:
                 simple_table:
                     label: Simple tables
-                    action: admin_lte.simple_table
+                    action: admin.simple_table
                 data_table:
                     label: Data tables
-                    action: admin_lte.data_table
+                    action: admin.data_table
 
         multi_level:
             label: Multilevel

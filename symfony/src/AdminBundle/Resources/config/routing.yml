@@ -1,0 +1,25 @@
+admin.home:
+    path:     /
+    defaults: { _controller: AdminBundle:Default:home }
+
+# Form
+admin.form_general:
+    path:     /form/general
+    defaults: { _controller: AdminBundle:Form:general }
+
+admin.form_advanced:
+    path:     /form/advanced
+    defaults: { _controller: AdminBundle:Form:advanced }
+
+admin.form_editors:
+    path:     /form/editors
+    defaults: { _controller: AdminBundle:Form:editors }
+
+# Table
+admin.simple_table:
+    path:     /table/simple
+    defaults: { _controller: AdminBundle:Table:simple }
+
+admin.data_table:
+    path:     /table/data
+    defaults: { _controller: AdminBundle:Table:data }

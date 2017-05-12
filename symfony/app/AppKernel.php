@@ -20,7 +20,7 @@ class AppKernel extends Kernel
             new \Umbrella\AdminBundle\UmbrellaAdminBundle(),
             new \Umbrella\UserBundle\UmbrellaUserBundle(),
 
-            new AdminLTE\AdminBundle\AdminLTEAdminBundle(),
+            new \AdminBundle\AdminBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {
