@@ -6,7 +6,7 @@ Ce projet est basé sur le thème **ADMIN**LTE de [Almsaeed Studio](https://alms
 Installation du projet
 ------------
 ``` bash
-    git clone git@github.com:acantepie/AdminLTEBundle.git
+    git clone git@github.com:acantepie/AdminLTE.git
     cd AdminLTE/symfony
     make install
 ```
