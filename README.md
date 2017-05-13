@@ -4,7 +4,7 @@ POC AdminBundle
 Installation du projet
 ------------
 ``` bash
-    git clone git@github.com:acantepie/AdminBundle.git
+    git clone git@github.com:acantepie/AdminLTEBundle.git
     cd AdminLTE/symfony
     make install
 ```
