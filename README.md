@@ -1,5 +1,7 @@
-POC AdminBundle
+POC AdminLTE
 ===================
+
+Ce projet est basé sur le thème AdminLTE de [https://almsaeedstudio.com/](Almsaeed Studio)
 
 Installation du projet
 ------------
@@ -25,3 +27,5 @@ Vous pouvez alors y entrer les identifiants suivants :
     root / root             pour l'accés en mode super administrateur
     acantepie / acantepie   pour l'accés en mode administrateur
 ```
+
+
