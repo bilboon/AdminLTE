@@ -1,4 +1,6 @@
 services:
-#    admin_ltebo.example:
-#        class: AdminBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
+    admin.menu_builder:
+        class: Umbrella\AdminBundle\Builder\YmlMenuBuilder
+        arguments: ["@service_container", 'AdminBundle/Resources/config/sitemap.yml']
+        tags:
+          - { name: umbrella_admin.menu_builder, method: createMenu, alias: main }
