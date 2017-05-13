@@ -26,6 +26,7 @@ header_main:
         forms:
             label: Forms
             icon: fa fa-edit
+            roles: ROLE_FORM_MANAGER
             children:
                 form_general:
                     label: General Elements
@@ -40,6 +41,7 @@ header_main:
         table:
             label: Tables
             icon: fa fa-table
+            roles: ROLE_TABLE_MANAGER
             children:
                 simple_table:
                     label: Simple tables
@@ -75,4 +77,11 @@ header_label:
         user:
             label: Users
             icon: fa fa-user text-blue
-            action: umbrella_user.index
+            roles: ROLE_USER_MANAGER
+            children:
+                users:
+                    label: Users
+                    action: umbrella_user.index
+                groups:
+                    label: Groups
+                    action: umbrella_user.group_index

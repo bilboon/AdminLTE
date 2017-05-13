@@ -3,4 +3,4 @@ services:
         class: Umbrella\AdminBundle\Builder\YmlMenuBuilder
         arguments: ["@service_container", 'AdminBundle/Resources/config/sitemap.yml']
         tags:
-          - { name: umbrella_admin.menu_builder, method: createMenu, alias: main }
+          - { name: umbrella_admin.menu_builder, method: createMenu, alias: default }

@@ -9,8 +9,11 @@ security:
             iterations:       1
 
     role_hierarchy:
-        ROLE_ADMIN:       [ ROLE_USER ]
-        ROLE_GODLIKE_ADMIN: [ ROLE_ADMIN ]
+        ROLE_ADMIN:           [ ROLE_USER ]
+        ROLE_FORM_MANAGER:    [ ROLE_ADMIN ]
+        ROLE_TABLE_MANAGER:   [ ROLE_ADMIN ]
+        ROLE_USER_MANAGER:    [ ROLE_ADMIN ]
+        ROLE_GODLIKE_ADMIN:   [ ROLE_USER_MANAGER, ROLE_TABLE_MANAGER, ROLE_FORM_MANAGER ]
 
     providers:
         bo_provider:
