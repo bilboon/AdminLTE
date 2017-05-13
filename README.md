@@ -1,7 +1,7 @@
 POC AdminLTE
 ===================
 
-Ce projet est basé sur le thème AdminLTE de [https://almsaeedstudio.com/](Almsaeed Studio)
+Ce projet est basé sur le thème AdminLTE de [Almsaeed Studio](https://almsaeedstudio.com)
 
 Installation du projet
 ------------
