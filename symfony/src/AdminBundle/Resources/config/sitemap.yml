@@ -49,7 +49,9 @@ header_main:
                 data_table:
                     label: Data tables
                     action: admin.data_table
-
+                test_table:
+                    label: Test data tables
+                    action: admin.test_table
         multi_level:
             label: Multilevel
             icon: fa fa-share

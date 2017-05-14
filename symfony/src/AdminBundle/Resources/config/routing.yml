@@ -23,3 +23,7 @@ admin.simple_table:
 admin.data_table:
     path:     /table/data
     defaults: { _controller: AdminBundle:Table:data }
+
+admin.test_table:
+    path:     /table/test
+    defaults: { _controller: AdminBundle:Table:test }
