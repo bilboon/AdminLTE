@@ -3,7 +3,7 @@
 namespace AdminBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
-use Umbrella\AdminBundle\Controller\Lib\BaseController;
+use Umbrella\CoreBundle\Core\BaseController;
 
 /**
  * Class DefaultController

@@ -9,10 +9,8 @@
 namespace AdminBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
-use Umbrella\AdminBundle\Controller\Lib\BaseController;
-use Umbrella\AdminBundle\Model\Table\DataTable;
-use Umbrella\AdminBundle\Model\Table\DataTableQueryBuilder;
-use Umbrella\AdminBundle\Model\Table\EntityColumn;
+use Umbrella\CoreBundle\Core\BaseController;
+use Umbrella\CoreBundle\DataTable\EntityColumn;
 
 /**
  * Class TableController

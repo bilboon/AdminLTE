@@ -1,6 +1,5 @@
 imports:
     - { resource: parameters.yml }
-    - { resource: admin/parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
     - { resource: "@UmbrellaAdminBundle/Resources/config/config.yml" }
@@ -75,6 +74,9 @@ assetic:
             # Formatter options: compressed, lessjs, classic
             formatter: "compressed"
             preserve_comments: false
+    bundles:
+        - UmbrellaCoreBundle
+        - UmbrellaAdminBundle
 
 # Swiftmailer Configuration
 swiftmailer:
@@ -83,3 +85,10 @@ swiftmailer:
     username: '%mailer_user%'
     password: '%mailer_password%'
     spool: { type: memory }
+
+umbrella_admin:
+    project_name: AdminLTE
+    html_project_name: <b>Admin</b>LTE
+    html_project_shortname: <b>A</b>LT
+    project_theme: skin-blue
+    sitemap: AdminBundle/Resources/config/sitemap.yml

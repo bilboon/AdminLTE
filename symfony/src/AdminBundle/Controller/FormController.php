@@ -9,8 +9,8 @@
 namespace AdminBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
-use Umbrella\AdminBundle\Controller\Lib\BaseController;
-use Umbrella\AdminBundle\Form\WysiwygType;
+use Umbrella\CoreBundle\Core\BaseController;
+use Umbrella\CoreBundle\Form\WysiwygType;
 
 /**
  * Class FormController

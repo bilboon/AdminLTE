@@ -19,6 +19,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:acantepie/UserBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:acantepie/CoreBundle.git"
         }
     ],
     "require": {
@@ -37,6 +41,7 @@
         "symfony/symfony": "3.2.*",
         "twig/twig": "^1.0||^2.0",
         "umbrella/adminbundle": "dev-master",
+        "umbrella/corebundle": "dev-master",
         "umbrella/userbundle": "dev-master"
     },
     "require-dev": {

@@ -9,7 +9,7 @@
 namespace AdminBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Umbrella\AdminBundle\Entity\Lib\BaseEntity;
+use Umbrella\CoreBundle\Core\BaseEntity;
 
 /**
  * Class Browser
